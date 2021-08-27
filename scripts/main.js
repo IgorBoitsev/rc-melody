@@ -7,8 +7,7 @@ const homeLevels = document.querySelector('.home-levels'),
       selector = document.querySelector('.selector'),
       buttonPrimary = document.querySelector('.button-primary'),
       modalFlats = document.querySelector('.modal-flats'),
-      flatsList = document.querySelector('.flats-list'),
-      closeBtn = document.querySelector('.close-btn');
+      flatsList = document.querySelector('.flats-list');
 
 // Функция смены подсветки этажа при нажатии на стрелочки
 const changeFloor = (direction) => {
@@ -196,6 +195,7 @@ const flatsListRender = async (floorNumber) => {
     })
   })
 }
+
 // Этажом выше
 selectorUp.addEventListener('click', () => {
   checkFloorNumber('up');
@@ -218,6 +218,7 @@ buttonPrimary.addEventListener('click', () => {
   modalFlatsOpen(selector.textContent);
 })
 // Закрытие модульного окна
-closeBtn.addEventListener('click', () => {
-  modalFlats.style.display = 'none';
+modalFlats.addEventListener('click', e => {
+  if (!e.target.closest('.modal-flats-wrapper') || e.target.closest('.close-btn'))
+    modalFlats.style.display = 'none';
 })
