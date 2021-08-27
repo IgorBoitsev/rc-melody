@@ -137,8 +137,8 @@ const getFloorInfo = async () => {
 
 // Создание списка с описанием квартирами для модульного окна
 const flatsListRender = async (floorNumber) => {
+  flatsList.textContent = '';
   let floor = '';
-  // let flatDescription = '';
 
   await getFloorInfo()  
     .then(floorList => {
@@ -155,25 +155,8 @@ const flatsListRender = async (floorNumber) => {
     flatsList.append(flat);
   })
 
-  // const flats = document.querySelectorAll('.flat'),
-  // flatsListItems = document.querySelectorAll('.flats-list-item');
-
-  // // Подсветка квартиры на плане при наведении на список квартир
-  // flatsListItems.forEach(item => {
-  //   item.addEventListener('mouseover', e => {
-
-  //     flats.forEach(flat => {
-  //       if (flat.dataset.number.substr(1) == e.target.dataset.number.substr(1)) {
-  //         flat.classList.add('is-active')
-  //       } else {
-  //         flat.classList.remove('is-active')
-  //       }
-  //     });
-  //   })
-  // })
   const flats = document.querySelectorAll('.flat'),
         flatsListItems = document.querySelectorAll('.flats-list-item');
-  // console.log(flatsListItems);
   
   // Подсветка квартиры на плане при наведении на список квартир
   flatsListItems.forEach(item => {
@@ -212,9 +195,7 @@ const flatsListRender = async (floorNumber) => {
       flatsListItems.forEach(item => item.classList.remove('is-active'))
     })
   })
-
 }
-
 // Этажом выше
 selectorUp.addEventListener('click', () => {
   checkFloorNumber('up');
@@ -231,8 +212,6 @@ levels.forEach(level => {
     flatsListRender(e.target.dataset.floor);
     modalFlatsOpen(e.target.dataset.floor);
   })
-
-
 })
 buttonPrimary.addEventListener('click', () => {
   flatsListRender(selector.textContent);

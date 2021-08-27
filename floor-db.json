@@ -23,8 +23,61 @@
         "square": "32,3",
         "balcony": "лоджия",
         "isSold": true
+      },
+      {
+        "style": "квартира",
+        "number": "23",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "24",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "25",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "26",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "27",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "студия",
+        "number": "28",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "29",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
       }
-
     ]
   },
   {
@@ -32,7 +85,7 @@
     "flatsList": [
       {
         "style": "квартира",
-        "number": "21",
+        "number": "20",
         "square": "72,5",
         "rooms": "3",
         "balcony": "балкон",
@@ -40,19 +93,639 @@
       },
       {
         "style": "студия",
-        "number": "22",
+        "number": "21",
         "square": "29,9",
         "balcony": "лоджия",
         "isSold": false
       },
       {
         "style": "студия",
-        "number": "23",
+        "number": "22",
         "square": "32,3",
         "balcony": "лоджия",
         "isSold": true
+      },
+      {
+        "style": "квартира",
+        "number": "23",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "24",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "25",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "26",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "27",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "студия",
+        "number": "28",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "29",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
       }
-
+    ]
+  },
+  {
+    "floorNumber": "04",
+    "flatsList": [
+      {
+        "style": "квартира",
+        "number": "20",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "21",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "22",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "квартира",
+        "number": "23",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "24",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "25",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "26",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "27",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "студия",
+        "number": "28",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "29",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      }
+    ]
+  },
+  {
+    "floorNumber": "05",
+    "flatsList": [
+      {
+        "style": "квартира",
+        "number": "20",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "21",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "22",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "квартира",
+        "number": "23",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "24",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "25",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "26",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "27",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "студия",
+        "number": "28",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "29",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      }
+    ]
+  },
+  {
+    "floorNumber": "06",
+    "flatsList": [
+      {
+        "style": "квартира",
+        "number": "20",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "21",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "22",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "квартира",
+        "number": "23",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "24",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "25",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "26",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "27",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "студия",
+        "number": "28",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "29",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      }
+    ]
+  },
+  {
+    "floorNumber": "07",
+    "flatsList": [
+      {
+        "style": "квартира",
+        "number": "20",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "21",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "22",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "квартира",
+        "number": "23",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "24",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "25",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "26",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "27",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "студия",
+        "number": "28",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "29",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      }
+    ]
+  },
+  {
+    "floorNumber": "08",
+    "flatsList": [
+      {
+        "style": "квартира",
+        "number": "20",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "21",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "22",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "квартира",
+        "number": "23",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "24",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "25",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "26",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "27",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "студия",
+        "number": "28",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "29",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      }
+    ]
+  },
+  {
+    "floorNumber": "09",
+    "flatsList": [
+      {
+        "style": "квартира",
+        "number": "20",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "21",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "22",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "квартира",
+        "number": "23",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "24",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "25",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "26",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "27",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "студия",
+        "number": "28",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "29",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      }
+    ]
+  },
+  {
+    "floorNumber": "10",
+    "flatsList": [
+      {
+        "style": "квартира",
+        "number": "20",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "21",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "22",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "квартира",
+        "number": "23",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "24",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "25",
+        "square": "35,8",
+        "rooms": "1",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "26",
+        "square": "58,4",
+        "rooms": "2",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "27",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      },
+      {
+        "style": "студия",
+        "number": "28",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "квартира",
+        "number": "29",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      }
     ]
   }
 ]
