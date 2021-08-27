@@ -185,3 +185,100 @@ a {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+/* ------ MODAL-FLATS ------ */
+.modal-flats {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal-flats-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 1003px;
+  height: 565px;
+}
+.flats-layout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 65%;
+  background-color: #EBEBEB;
+  padding: 50px;
+}
+.modal-header {
+  font-family: 'Bebas Neue Regular', sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.flats-layout-header {
+  margin-bottom: 6px;
+}
+.flats-list-layout {
+  width: 35%;
+  background-color: #fff;
+  padding: 50px;
+}
+.flats-list-header {
+  margin-bottom: 55px;
+}
+.flats-list {
+  list-style: none;
+  margin-bottom: 45px;
+  padding: 0;
+}
+.flats-list-item {
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.flats-list-item:hover {
+  color: #3596F5;
+  text-decoration: underline;
+}
+.flats-list-item.is-active {
+  color: #3596F5;
+  text-decoration: underline;
+}
+.flats-list-item.sold {
+  color: #635854;
+  cursor: default;
+  text-decoration: none;
+}
+.notice {
+  font-size: 16px;
+  line-height: 19px;
+  color: #635854;
+  font-style: italic;
+}
+.flat {
+  opacity: 0;
+  cursor: pointer;
+}
+.flat.is-sold {
+  opacity: 0 !important;
+  cursor: default !important;
+}
+.flat:hover {
+  opacity: 1;
+}
+.flat.is-active {
+  opacity: 1;
+}
+.close-btn {
+  position: absolute;
+  right: 27px;
+  top: 27px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

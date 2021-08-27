@@ -1,0 +1,58 @@
+[
+  {
+    "floorNumber": "02",
+    "flatsList": [
+      {
+        "style": "квартира",
+        "number": "20",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "21",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "22",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      }
+
+    ]
+  },
+  {
+    "floorNumber": "03",
+    "flatsList": [
+      {
+        "style": "квартира",
+        "number": "21",
+        "square": "72,5",
+        "rooms": "3",
+        "balcony": "балкон",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "22",
+        "square": "29,9",
+        "balcony": "лоджия",
+        "isSold": false
+      },
+      {
+        "style": "студия",
+        "number": "23",
+        "square": "32,3",
+        "balcony": "лоджия",
+        "isSold": true
+      }
+
+    ]
+  }
+]
